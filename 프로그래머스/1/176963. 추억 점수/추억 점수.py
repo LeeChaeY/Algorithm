@@ -1,3 +1,4 @@
+# 5분 정도 소요
 def solution(name, yearning, photo):
     answer = []
     num_d = {}
