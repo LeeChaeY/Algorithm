@@ -1,7 +1,6 @@
-# 1시간 정도 소요
+# 약 1시간정도 소요
 def solution(friends, gifts):
     d = {key:i for i, key in enumerate(friends)}
-    global sizes
     size = len(friends)
     answer = [0 for _ in range(size)]
     gift_arr = [[0 for _ in range(size)] for _ in range(size)]
@@ -13,7 +12,6 @@ def solution(friends, gifts):
         gift_num[d[p1]] += 1
         gift_num[d[p2]] -= 1
     
-    print(gift_arr)
     for i in range(size-1):
         for j in range(i+1, size):
             if ((gift_arr[i][j] == 0 and gift_arr[j][i] == 0) or (gift_arr[i][j] == gift_arr[j][i])):
