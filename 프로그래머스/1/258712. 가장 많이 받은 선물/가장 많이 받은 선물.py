@@ -1,3 +1,4 @@
+# 1시간 정도 소요
 def solution(friends, gifts):
     d = {key:i for i, key in enumerate(friends)}
     global sizes
