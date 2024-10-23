@@ -1,3 +1,4 @@
+#  20분정도 소요
 def solution(sizes):
     answer = 1
     a, b = [], []
