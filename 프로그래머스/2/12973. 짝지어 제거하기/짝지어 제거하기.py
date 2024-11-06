@@ -1,6 +1,5 @@
 # 약 1시간 소요, 질문하기에서 스택 활용법 봄
 def solution(s):
-    answer = 1
     s = list(s)
     stack = []
     for i in range(len(s)):
