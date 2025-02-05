@@ -1,4 +1,4 @@
-# 7:00
+# 15분 소요
 def solution(elements):
     # ans = elements+ [sum(elements)]
     ans = set(elements+[sum(elements)])
